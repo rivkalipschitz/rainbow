@@ -1,0 +1,98 @@
+#one{
+    background-color: purple;
+}
+
+#two{
+    background-color: navy;
+}
+
+#three{
+    background-color: blue;
+}
+#four{
+    background-color: green;
+}
+#five{
+    background-color: yellow;
+}
+
+#six{
+    background-color: orange;
+}
+#seven{
+    background-color: red;
+   
+}
+
+
+.box{
+    width: 400px;
+    margin: auto;
+    transform: rotate(90deg);
+    /* position: relative; */
+ 
+
+}
+.space{
+    padding: 20px;
+    margin: 0;
+    /* position: relative; */
+}
+
+p{
+    text-align: center;
+    font-family: cursive;
+}
+
+.circle1{
+	width: 200px;
+	height: 200px;
+	background:gray;
+    border-radius: 100px;
+    border: 1px solid black;
+    transform: translateX(150px) translateY(-90px);
+    /* display: inline-block; */
+
+  }
+  .circle2{
+	width: 200px;
+	height: 200px;
+	background: gray;
+    border-radius: 100px;
+    border: 1px solid black;
+    transform: translateX(200px) translateY(-250px);
+    /* display: inline-block; */
+  }
+  .circle3{
+	width: 200px;
+	height: 200px;
+	background: gray;
+    border-radius: 100px;
+    border: 1px solid black;
+    transform: translateX(250px) translateY(-550px);
+    /* display: inline-block; */
+
+  }
+.oval {
+	width: 350px;
+	height: 250px;
+	background: gray;
+    border-radius: 270px / 200px;
+    border: 1px solid black;
+    transform: translateX(300px) translateY(-700px);
+    /* position: absolute;
+    left: 40px;
+    top: 30px; */
+    /* display: inline-block; */
+   }
+
+
+.gold{
+    width: 300px;
+	height: 40px;
+    background: gold;
+    margin: 80px auto 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
